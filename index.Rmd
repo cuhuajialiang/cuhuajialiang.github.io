@@ -6,36 +6,33 @@ output:
     toc_float: true
 ---
 
-# This is Jeff's awesome website
+# Welcome to Jialiang's website!
 
-What if I add some text here...?
+This is the first website of my life. In the website, you will see the introduction of myself, my resume. In addition, I will visualize a dataset from **P8105**. Please click around!
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 
+## This is my hometown:
 
-## Here's a subsection
+![](images/changzhou.jpg)\
 
-And here's some additional text ...
+This is my hometown, Changzhou. Changzhou lies in the south of Jiangsu Province, Yangtze Delta area, neighboring Taihu Lake and Shanghai to the east, Nanjing to the west, and shares the boundary with Anhui Province to the south. Changzhou has developed national high-end manufacturing industries including new energy vehicles and auto core parts, smart grid and new material industries, especially the graphene technology is leading in the world.
 
-```{r}
-rnorm(10)
-```
+In the process of more than 2,500 years, many historical sites are left in this city. You can appreciate ancient buildings, a wonderful chimes performance in the China Spring and Autumn Yancheng Scenic Area and brick carvings in the Tianning Temple. As Beijing-Hangzhou Grand Canal passes through the central Changzhou, you can take a cruise ship to appreciate the city and know its history and culture. Besides, you can also visit the China Dinosaurs Park, a large dinosaur culture-themed amusement park. Also surprisingly, Changzhou is a food paradise which offers all kinds of cakes, snacks and dishes such as Steamed Buns, Wanton, Silver Noodles and Shrimp Cake. The fish from Tianmu Lake and hairy crab from Changdang Lake should not be missed.
+
+
+## About me
+
+- I am an M.S. student at Columbia University. 
+- I am studying Biostatistics.
+- I currently live in New York City.
 
 
 ## Links to other websites
 
-Let's link to useful tools for data science:
-
 * [Google](https://google.com)
 * [P8105](https://p8105.com)
 
-## Local image
-
-Here's the plane:
-
-<img src="images/plane.jpg" style=width:75%">
-
-![](images/plane.jpg)
 
 ## Link to page within the site
 

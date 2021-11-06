@@ -10,9 +10,9 @@ navbar:
     - text: "Dashboard"
       href: dashboard.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<dwjialiang@gmail.com>
     - icon: fa-github fa-lg
       href: http://github.com/<YOUR_GH_NAME>/
 output:
   html_document:
-    theme: cerulean
+    theme: readable
