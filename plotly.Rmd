@@ -19,6 +19,20 @@ data("instacart")
 
 # Plotly plots
 
+
+## Boxplot
+
+```{r}
+instacart %>% 
+  select(aisle, product_name, order_hour_of_day) %>%
+  filter(aisle == "frozen juice") %>%
+  mutate(product_name = fct_reorder(product_name, order_hour_of_day)) %>% 
+  plot_ly(x = ~product_name, y = ~order_hour_of_day, color = ~product_name,
+          type = "box", colors = "viridis") %>%
+  layout(showlegend = TRUE, legend = list(font = list(size = 8)))
+```
+
+
 ## Scatterplots
 
 ```{r message = FALSE}
@@ -31,20 +45,6 @@ instacart %>%
   plot_ly(
     x = ~order_hour_of_day, y = ~number_of_orders, color = ~product_name, text = ~product_name,
     alpha = 0.8, type = "scatter", mode = "markers", colors = "viridis")
-```
-
-
-## Boxplot
-
-
-```{r}
-instacart %>% 
-  select(aisle, product_name, order_hour_of_day) %>%
-  filter(aisle == "frozen juice") %>%
-  mutate(product_name = fct_reorder(product_name, order_hour_of_day)) %>% 
-  plot_ly(x = ~product_name, y = ~order_hour_of_day, color = ~product_name,
-          type = "box", colors = "viridis") %>%
-  layout(showlegend = TRUE, legend = list(font = list(size = 8)))
 ```
 
 
