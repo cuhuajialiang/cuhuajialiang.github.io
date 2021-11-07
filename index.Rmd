@@ -39,4 +39,5 @@ In the process of more than 2,500 years, many historical sites are left in this 
 ## Link to page within the site
 
 - [Resume](resume.html)
-- [dashboard](dashboard.html)
+- [Dashboard](dashboard.html)
+- [About](about.html)

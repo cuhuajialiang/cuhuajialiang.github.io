@@ -9,6 +9,8 @@ navbar:
       href: plotly.html
     - text: "Dashboard"
       href: dashboard.html
+    - text: "About"
+      href: about.html
     - icon: fa-envelope fa-lg
       href: mailto:<dwjialiang@gmail.com>
     - icon: fa-github fa-lg

@@ -6,6 +6,10 @@ output:
     toc_float: true
 ---
 
-# This page has information about me
 
-I am a student at Columbia.
+- I am an M.S. student at Columbia University. I am studying Biostatistics.
+- I am a [Soochow University](https://en.wikipedia.org/wiki/Soochow_University_(Suzhou)) alum （MBBS）
+- I currently live in New York City.
+- I like music, guitar and photography
+
+![](images/IMG_9743.JPG){ width=50% }
